@@ -4,7 +4,7 @@ liste = liste.split('\n')
 
 
 def lisser():
-    new_liste = [ [] for _ in range(len(liste)) ]
+    new_liste = [[] for _ in range(len(liste))]
     for i in range(len(liste)):
         liste[i] = liste[i][7:]
         liste[i] = liste[i].split(';')

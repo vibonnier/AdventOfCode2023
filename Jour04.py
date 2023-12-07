@@ -1,4 +1,4 @@
-# liste = open('Puzzles/').read()
+# liste = open('Puzzles/Cards_test').read()
 liste = open('Puzzles/Cards').read()
 liste = liste.split('\n')
 print(liste)
